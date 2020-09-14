@@ -1,0 +1,74 @@
+/* font-family: 'Alegreya Sans', sans-serif; underrubriker*/
+/* font-family: 'Lustria', serif; brödtext */
+/* font-family: 'Merriweather Sans', sans-serif; rubriker */
+
+header {
+ background-color: #3e8989;
+}
+
+footer {
+    background-color: #3e8989;
+}
+
+p {
+    font-family: 'Lustria', serif;
+    color: #322214;
+    font-size: 19px;
+}
+
+form {
+    font-family: 'Alegreya Sans', sans-serif; 
+    background-color: #3e8989;
+}
+
+#img1 {
+    background-image: url('../bild/placeholder.png');
+    height: 60vh;
+    width: 100%;
+}
+
+#getnow {
+   height: 7%;
+   margin-top: 51vh;
+   width: 40%;
+   border-radius: 10em;
+   vertical-align: middle;
+   border: none;
+}
+
+#getnowtext {
+    font-size: 21px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+#img2 {
+    background-image: url('../bild/placeholder.png');
+    height: 40vh;
+    width: 100%;
+}
+
+#img3 {
+    background-image: url('../bild/placeholder.png');
+    height: 40vh;
+    width: 100%;
+}
+
+#form {
+    font-family: 'Alegreya Sans', sans-serif; 
+}
+
+#label {
+    margin-top: 4vh;
+    margin-left: 1em;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#submit {
+    margin-left: 1em;
+    margin-bottom: 4vh;
+}
+
+#monkyreturn {
+    display: inline-block;
+    background-color: #3e8989;
+}
