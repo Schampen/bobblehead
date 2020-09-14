@@ -13,7 +13,7 @@ footer {
 p {
     font-family: 'Nunito', sans-serif;
     color: #0F0A06;
-    font-size: 2vh;
+    font-size: 1.9vh;
     margin-bottom: 0px;
 }
 
@@ -34,16 +34,15 @@ form {
 
 #interested {
    height: 9%;
-   margin-top: 51vh;
    width: 60%;
    border-radius: 10em;
-   position: static;
    border: none;
 }
 
 #interestedtext {
-    font-size: 3.5vh;
+    font-size: 3vh;
     font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 600;
 }
 
 #monkyreturn {
