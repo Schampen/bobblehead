@@ -3,22 +3,23 @@
 /* font-family: 'Merriweather Sans', sans-serif; rubriker */
 
 header {
- background-color: #3e8989;
+ background-color: #acda9d;
 }
 
 footer {
-    background-color: #3e8989;
+    background-color: #acda9d;
 }
 
 p {
     font-family: 'Lustria', serif;
-    color: #322214;
-    font-size: 19px;
+    color: #0F0A06;
+    font-size: 1.3em;
+    
 }
 
 form {
     font-family: 'Alegreya Sans', sans-serif; 
-    background-color: #3e8989;
+    background-color: #acda9d;
 }
 
 #img1 {
@@ -69,6 +70,5 @@ form {
 }
 
 #monkyreturn {
-    display: inline-block;
-    background-color: #3e8989;
+    background-color: #acda9d;
 }
