@@ -7,7 +7,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Merriweather:ital@1&family=Nunito&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Merriweather:ital@1&family=Nunito&display=swap"
+    rel="stylesheet">
   <title>MONKY</title>
 </head>
 
@@ -18,28 +20,22 @@
   <div id="img1"></div>
   <div class="p-4" id="monkyreturn">
     <img class="mb-4" src="bild/Monkyreturn.svg" alt="MONKY return logo">
-    <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ut magni consectetur explicabo, totam est,
+    <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ut magni consectetur explicabo,
+      totam est,
       praesentium voluptatibus corporis beatae minima dolores et enim? Nesciunt dignissimos eaque fugit beatae at
       laudantium?</p>
-    <button id="interested"><a id="interestedtext">INTERESTED</a></button>
+    <div class="interestbutton">
+      <button id="interested"><a id="interestedtext">INTERESTED</a></button>
+    </div>
   </div>
   <div id="img2"></div>
   <div id="img3"></div>
   <form action="" id="form">
-    <label for="form" id="label">INTERESTED?</label>
+    <div class="form-group">
+      <label for="form" id="label">ARE YOU INTERESTED?</label>
+      <p id="register">Register and get notified when Monky goes up for sale</p>
+    </div>
     <div class="container">
-      <div class="row d-flex">
-        <div class="col-6">
-          <div class="form-group">
-            <input type="firstname" class="form-control" id="firstname" placeholder="Firstname">
-          </div>
-        </div>
-        <div class="col-6">
-          <div class="form-group">
-            <input type="lastlame" class="form-control" id="lastname" placeholder="Lastname">
-          </div>
-        </div>
-      </div>
       <div class="row">
         <div class="col-12">
           <div class="form-group">
@@ -50,7 +46,7 @@
     </div>
     <button type="submit" class="btn btn-primary" id="submit">Submit</button>
   </form>
-  <div class="container" id="img3"></div>
+  <div id="img4"></div>
   <footer>
     <img class="m-4" src="bild/Monkyloga.svg" alt="MONKY logo">
   </footer>
