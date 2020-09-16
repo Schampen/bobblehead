@@ -17,8 +17,9 @@ footer {
 p {
     font-family: 'Nunito', sans-serif;
     color: #0F0A06;
-    font-size: 4.5vw;
+    font-size: 4.2vw;
     margin-bottom: 0px;
+    font-weight: 600;
 }
 
 form {
@@ -58,7 +59,6 @@ form {
     color: #0F0A06;
     font-size: 6vw;
     font-family: 'Merriweather Sans', sans-serif;
-    font-weight: 600;
     padding: 10px;
     box-shadow: 1px 2px #888888;
 }
@@ -109,22 +109,30 @@ form {
     font-size: 5vw;
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: 600;
-    margin-bottom: 4vh;
     padding: 10px;
+    margin-bottom: 2vh;
     box-shadow: 1px 2px #888888;
 }
 
 #register {
-    margin-left: 4vW;
-    margin-right: 4vW;
-    margin-bottom: 0.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2vh;
 }
 
 #email {
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 0.5rem;
+    margin-bottom: 2vh;
     width: 80%;
     padding: 10px;
     box-shadow: 1px 1px #888888;
+}
+
+#GDPR {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 4vh;
+    text-align: justify;
+    font-size: 3.5vw;
 }
