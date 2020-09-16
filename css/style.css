@@ -2,8 +2,12 @@
 /* font-family: 'Lustria', serif; brödtext */
 /* font-family: 'Merriweather Sans', sans-serif; rubriker */
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
- background-color: #acda9d;
+    background-color: #acda9d;
 }
 
 footer {
@@ -13,13 +17,17 @@ footer {
 p {
     font-family: 'Nunito', sans-serif;
     color: #0F0A06;
-    font-size: 5vw;
+    font-size: 4.5vw;
     margin-bottom: 0px;
 }
 
 form {
     font-family: 'Alegreya Sans', sans-serif; 
     background-color: #acda9d;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #acda5d;
 }
 
 .interestbutton {
@@ -30,6 +38,7 @@ form {
 
 #monkylogo {
     margin: 2vw;
+    border: 1px solid #acda5d;
 }
 
 #img1 {
@@ -39,17 +48,15 @@ form {
 }
 
 #interested {
-   height: 9%;
-   background-color: white;
-   width: 60%;
-   border-radius: 10em;
-   border: 1px solid whitesmoke;
-   margin: auto;
-   text-align: center;
-}
-
-#interestedtext {
-    font-size: 7vw;
+    height: 8%;
+    background-color: white;
+    width: 60%;
+    border-radius: 10em;
+    border: 1px solid whitesmoke;
+    margin: auto;
+    text-align: center;
+    color: #0F0A06;
+    font-size: 6vw;
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: 600;
 }
@@ -59,43 +66,61 @@ form {
     text-align: justify;
     font-weight: bold;
     align-items: center;
+    border: 1px solid #acda5d;
 }
 
 #img2 {
-    background-image: url('../bild/placeholder.png');
+    background-image: url('../bild/placeholder2.png');
     height: 40vh;
     width: 100%;
 }
 
 #img3 {
-    background-image: url('../bild/placeholder.png');
+    background-image: url('../bild/placeholder3.png');
     height: 40vh;
     width: 100%;
 }
 
 #img4 {
-    background-image: url('../bild/placeholder.png');
+    background-image: url('../bild/placeholder4.png');
     height: 40vh;
     width: 100%;
 }
 
-#form {
-    font-family: 'Alegreya Sans', sans-serif; 
-}
 
 #label {
     margin-top: 4vh;
-    margin-left: 4vw;
+    font-size: 7vw;
     font-family: 'Alegreya Sans', sans-serif;
     font-weight: 600;
 }
 
 #submit {
-    margin-left: 1em;
+    height: 5%;
+    background-color: white;
+    width: 40%;
+    border-radius: 10em;
+    border: 1px solid whitesmoke;
+    margin: auto;
+    text-align: center;
+    color: #0F0A06;
+    font-size: 5vw;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 600;
     margin-bottom: 4vh;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
 }
 
 #register {
-    margin-left: 1em;
+    margin-left: 4vW;
+    margin-right: 4vW;
     margin-bottom: 0.5rem;
+}
+
+#email {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0.5rem;
+    width: 80%;
 }
