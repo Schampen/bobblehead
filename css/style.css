@@ -2,25 +2,20 @@ html {
     scroll-behavior: smooth;
 }
 
-header {
-    background-color: #acda9d;
-}
-
-footer {
+body {
     background-color: #acda9d;
 }
 
 p {
     font-family: 'Nunito', sans-serif;
     color: #0F0A06;
-    font-size: 4.2vw;
+    font-size: 1.2em;
     margin-bottom: 0px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 form {
     font-family: 'Alegreya Sans', sans-serif; 
-    background-color: #acda9d;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -31,104 +26,4 @@ form {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-#monkylogo {
-    margin: 2vw;
-    border: 1px solid #acda5d;
-}
-
-#img1 {
-    background-image: url('../bild/placeholder.png');
-    height: 60vh;
-    width: 100%;
-}
-
-#interested {
-    height: 8%;
-    background-color: white;
-    width: 60%;
-    border-radius: 10em;
-    border: 1px solid whitesmoke;
-    margin: auto;
-    text-align: center;
-    color: #0F0A06;
-    font-size: 6vw;
-    font-family: 'Merriweather Sans', sans-serif;
-    padding: 10px;
-    box-shadow: 1px 2px #888888;
-}
-
-#monkyreturn {
-    background-color: #acda9d;
-    text-align: justify;
-    font-weight: bold;
-    align-items: center;
-    border: 1px solid #acda5d;
-}
-
-#img2 {
-    background-image: url('../bild/placeholder2.png');
-    height: 40vh;
-    width: 100%;
-}
-
-#img3 {
-    background-image: url('../bild/placeholder3.png');
-    height: 40vh;
-    width: 100%;
-}
-
-#img4 {
-    background-image: url('../bild/placeholder4.png');
-    height: 40vh;
-    width: 100%;
-}
-
-
-#label {
-    margin-top: 4vh;
-    font-size: 7vw;
-    font-family: 'Alegreya Sans', sans-serif;
-    font-weight: 600;
-}
-
-#submit {
-    height: 5%;
-    background-color: white;
-    width: 40%;
-    border-radius: 10em;
-    border: 1px solid whitesmoke;
-    margin: auto;
-    text-align: center;
-    color: #0F0A06;
-    font-size: 5vw;
-    font-family: 'Merriweather Sans', sans-serif;
-    font-weight: 600;
-    padding: 10px;
-    margin-bottom: 2vh;
-    box-shadow: 1px 2px #888888;
-}
-
-#register {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 2vh;
-}
-
-#email {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 2vh;
-    width: 80%;
-    padding: 10px;
-    box-shadow: 1px 1px #888888;
-}
-
-#GDPR {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 4vh;
-    text-align: justify;
-    font-size: 3.5vw;
 }
