@@ -9,7 +9,7 @@ body {
 p {
     font-family: 'Nunito', sans-serif;
     color: #0F0A06;
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin-bottom: 0px;
     font-weight: 400;
 }
@@ -26,4 +26,8 @@ form {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.btn {
+    border-radius: 12px;
 }
