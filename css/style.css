@@ -14,6 +14,10 @@ p {
     font-weight: 400;
 }
 
+h1 {
+    font-family: 'Merriweather';
+}
+
 form {
     font-family: 'Alegreya Sans', sans-serif; 
     text-align: center;
@@ -30,4 +34,8 @@ form {
 
 .btn {
     border-radius: 12px;
+}
+
+.gdpr {
+    font-size: 0.9em;
 }
