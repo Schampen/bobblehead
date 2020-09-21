@@ -45,10 +45,31 @@
     <div class="submitbtn my-3">
       <button type="submit" class="btn btn-light btn-lg">Submit</button>
     </div>
-    <p class="gdpr mx-2 my-3 font-weight-light text-justify">NOTE: By submitting your email you are agreeing to us storing your emails with the goal to notify you
-      with updates of the product. Your information will be removed from our databases when the product no longer is for
-      sale or if you would want it removed beforehand.</p>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  What do we do with your data?
+</button>
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">GDPR</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="gdpr mx-2 my-3 font-weight-light text-justify">NOTE: By submitting your email you are agreeing to us storing your emails with the goal to notify you
+          with updates of the product. Your information will be removed from our databases when the product no longer is for
+          sale or if you would want it removed beforehand.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
   </form>
+  
   <div class="w-100 d-flex justify-content-center">
     <img class="img-fluid" src="bild/closeup.jpg" alt="close up of monky">
   </div>
